@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8d8e8;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#home h1 {
+    font-size: 2.5em;
+    color: #f68fff;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #f68fff;
+    color: white;
+}
+
+button:hover {
+    background-color: #ed78f8;
+}
+
+#invite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: #44992a;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 2em;
+    color: #47c022;
+}
+
+.card p {
+    font-size: 1.2em;
+    color: #a9dd99;
+}
+
+.inviteC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tooC {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#tooBad h2 {
+    font-size: 2em;
+    color: #47c022;
+    text-align: center;
+}
+
+.gify1, .gify2, .gifn1, .gifn2, .sti1{
+    max-width: 30%; 
+    height: auto;
+}
